@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap");
+
+@import "content.css";
+@import "play-icon.css";
+
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 20px;
+  padding: 70px 27px 0px 27px;
+  width: 415px;
+  height: 885px;
+  border: 5px solid #00c6ad;
+}
+
+.playlist span {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.playlist span:first-child {
+  font-size: 40px;
+  margin-left: 7px;
+  margin-right: 90px;
+}
