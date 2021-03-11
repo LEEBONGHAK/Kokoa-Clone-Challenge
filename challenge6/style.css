@@ -1,0 +1,19 @@
+@import "header.css";
+@import "main.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+}
+
+.screen {
+  width: 340px;
+  height: 765px;
+}
+
+.main {
+  padding: 50px 15px;
+}
