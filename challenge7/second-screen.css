@@ -1,0 +1,91 @@
+.two__img {
+  display: flex;
+  justify-content: center;
+}
+
+.two__img img {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  width: 195px;
+  height: 195px;
+  border-radius: 10px;
+}
+
+.one__control__text,
+.two__text {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.two__text h1 {
+  margin-bottom: 15px;
+}
+
+.one__control__text h2,
+.two__text h2 {
+  font-size: 12px;
+  margin: 0px;
+}
+
+.two__text h3 {
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.two__scroll__text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 3px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.two__scroll__range {
+  margin-bottom: 45px;
+  height: 3px;
+  border-radius: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.two__scroll__range .black {
+  width: 135px;
+  height: 3px;
+  background-color: black;
+}
+
+.two__scroll__range .point {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  top: -1.5px;
+  left: 130px;
+}
+
+.two__controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  font-size: 13px;
+}
+
+.two__controls div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two__controls i:first-child,
+.two__controls i:last-child {
+  color: rgba(0, 0, 0, 0.2);
+}

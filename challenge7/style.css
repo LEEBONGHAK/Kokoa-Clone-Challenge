@@ -1,0 +1,34 @@
+@import "second-screen.css";
+@import "first-screen.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f7f7;
+  padding: 45px;
+  display: flex;
+  justify-content: center;
+}
+
+.screen {
+  background-color: #ffffff;
+  width: 270px;
+  height: 585px;
+  border-radius: 30px;
+  margin-right: 80px;
+  padding: 30px 20px;
+  position: relative;
+}
+
+.screen__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+
+.screen__header i:last-child {
+  font-size: 15px;
+}
